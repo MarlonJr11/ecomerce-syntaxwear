@@ -7,16 +7,15 @@
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/variables.css">
   <link rel="stylesheet" href="/css/components/header.css">
+  <link rel="stylesheet" href="/css/components/hero.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/layout.css">
 </head>
 <body>
   <header class="header">
-    <h1 class="logo">
       <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
         <img src="images/logo/logo.svg.svg" alt="SyntaxWear - Tênis e Sneakers Online" />
       </a>
-    </h1>
     
     <nav class="nav-center" aria-label="Categorias Principais">
       <ul>
@@ -27,54 +26,60 @@
     </nav>
   
     <nav class="nav-right" aria-label="Menu de Acesso Rápido">
-      <ul class="nav-right__menu">
-        <li class="nav-right__item"><a href="#" class="nav-right__link">Nossas Lojas</a></li>
-        <li class="nav-right__item"><a href="#" class="nav-right__link">Sobre</a></li>
-        <li class="nav-right__item"><a href="#" class="nav-right__link"></a> <img src="images/icons/perfil.svg.svg" alt="Perfil" /></li>
-        <li class="nav-right__item"><a href="#" class="nav-right__link"></a><img src="images/icons/duvida.svg.svg" alt="Dúvidas"></li>
-        <li class="nav-right__item"><a href="#" class="nav-right__link"></a><img src="images/icons/carrinho.svg.svg" alt="Carrinho"></li>
+      <ul class="nav-right-menu">
+        <li class="nav-right-item"><a href="#" class="nav-right-link">Nossas Lojas</a></li>
+        <li class="nav-right-item"><a href="#" class="nav-right-link">Sobre</a></li>
+        <li class="nav-right-item"><a href="#" class="nav-right-link"></a> <img src="images/icons/perfil.svg.svg" alt="Perfil" /></li>
+        <li class="nav-right-item"><a href="#" class="nav-right-link"></a><img src="images/icons/duvida.svg.svg" alt="Dúvidas"></li>
+        <li class="nav-right-item"><a href="#" class="nav-right-link"></a><img src="images/icons/carrinho.svg.svg" alt="Carrinho"></li>
       </ul>
     </nav>
   </header>
 
   <main class="main">
-    <section class="hero">
-      <div class="hero__content">
-        <h1 class="hero__title">Encontre o seu estilo com SyntaxWear</h1>
-        <p class="hero__subtitle">Os melhores sapatos para todos os gostos e ocasiões.</p>
-        <a href="#" class="hero__cta">Ver ofertas</a>
+    <section class="hero-section">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <span class="hero-subtitle">Find your way.</span>
+          <h2 class="hero-title">Encontre o seu estilo com SyntaxWear</h2>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-outline">Compre agora</a>
+            <a href="#" class="btn btn-filled">Saiba mais</a>
+          </div>
+        </div>
       </div>
+
     </section>
 
     <section class="destaques">
-      <h2 class="destaques__title">Destaques</h2>
-      <div class="destaques__grid">
+      <h2 class="destaques-title">Destaques</h2>
+      <div class="destaques-grid">
         <!-- Cards de destaque dos produtos/sapatos -->
-        <article class="destaque__card">
-          <img src="images/products/destaque1.png" alt="Sapato Destaque 1" class="destaque__img" />
-          <h3 class="destaque__name">Sapato Casual</h3>
+        <article class="destaque-card">
+          <img src="images/products/destaque1.png" alt="Sapato Destaque 1" class="destaque-img" />
+          <h3 class="destaque-name">Sapato Casual</h3>
         </article>
-        <article class="destaque__card">
-          <img src="images/products/destaque2.png" alt="Sapato Destaque 2" class="destaque__img" />
-          <h3 class="destaque__name">Sapato Social</h3>
+        <article class="destaque-card">
+          <img src="images/products/destaque2.png" alt="Sapato Destaque 2" class="destaque-img" />
+          <h3 class="destaque-name">Sapato Social</h3>
         </article>
         <!-- ...mais destaques... -->
       </div>
     </section>
 
     <section class="produtos">
-      <h2 class="produtos__title">Produtos</h2>
-      <div class="produtos__grid">
+      <h2 class="produtos-title">Produtos</h2>
+      <div class="produtos-grid">
         <!-- Cards de produtos -->
-        <article class="produto__card">
-          <img src="images/products/produto1.png" alt="Sapato Produto 1" class="produto__img" />
-          <h3 class="produto__name">Tênis Esportivo</h3>
-          <p class="produto__price">R$ 199,90</p>
+        <article class="produto-card">
+          <img src="images/products/produto1.png" alt="Sapato Produto 1" class="produto-img" />
+          <h3 class="produto-name">Tênis Esportivo</h3>
+          <p class="produto-price">R$ 199,90</p>
         </article>
-        <article class="produto__card">
-          <img src="images/products/produto2.png" alt="Sapato Produto 2" class="produto__img" />
-          <h3 class="produto__name">Sandália Feminina</h3>
-          <p class="produto__price">R$ 149,90</p>
+        <article class="produto-card">
+          <img src="images/products/produto2.png" alt="Sapato Produto 2" class="produto-img" />
+          <h3 class="produto-name">Sandália Feminina</h3>
+          <p class="produto-price">R$ 149,90</p>
         </article>
         <!-- ...mais produtos... -->
       </div>
@@ -82,12 +87,12 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__content">
-      <p class="footer__text">&copy; 2025 SyntaxWear. Todos os direitos reservados.</p>
-      <nav class="footer__nav">
-        <ul class="footer__menu">
-          <li class="footer__item"><a href="#" class="footer__link">Política de Privacidade</a></li>
-          <li class="footer__item"><a href="#" class="footer__link">Termos de Uso</a></li>
+    <div class="footer-content">
+      <p class="footer-text">&copy; 2025 SyntaxWear. Todos os direitos reservados.</p>
+      <nav class="footer-nav">
+        <ul class="footer-menu">
+          <li class="footer-item"><a href="#" class="footer-link">Política de Privacidade</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Termos de Uso</a></li>
         </ul>
       </nav>
     </div>
