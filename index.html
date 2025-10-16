@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SyntaxWear - Tênis e Sneakers Online</title>
+  <meta name="description" content="Compre tênis e sneakers online exclusivos na SyntaxWear. Encontre os melhores estilos e ofertas exclusivas, com frete grátis e envio imediato!"/>
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/variables.css">
-  <link rel="stylesheet" href="/css/components/header.css">
-  <link rel="stylesheet" href="/css/components/hero.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components/header.css">
+  <link rel="stylesheet" href="/css/components/hero.css">
+  <link rel="stylesheet" href="/css/components/product-category.css">
 </head>
 <body>
   <header class="header">
@@ -51,19 +53,32 @@
 
     </section>
 
-    <section class="destaques">
-      <h2 class="destaques-title">Destaques</h2>
-      <div class="destaques-grid">
-        <!-- Cards de destaque dos produtos/sapatos -->
-        <article class="destaque-card">
-          <img src="images/products/destaque1.png" alt="Sapato Destaque 1" class="destaque-img" />
-          <h3 class="destaque-name">Sapato Casual</h3>
-        </article>
-        <article class="destaque-card">
-          <img src="images/products/destaque2.png" alt="Sapato Destaque 2" class="destaque-img" />
-          <h3 class="destaque-name">Sapato Social</h3>
-        </article>
-        <!-- ...mais destaques... -->
+   <!-- Cards de destaque dos produtos/sapatos -->
+    <section class="category-section">
+        <div class ="category-card casual">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Casual</span>
+          </a>
+        </div>
+        <div class ="category-card esportivo">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Esportivo</span>
+          </a>
+        </div>
+        <div class ="category-card moderno">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Moderno</span>
+          </a>
+        </div>
+        <div class ="category-card futurista">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Futurista</span>
+          </a>
+        </div>
       </div>
     </section>
 
