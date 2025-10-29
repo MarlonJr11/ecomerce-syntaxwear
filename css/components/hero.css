@@ -1,7 +1,6 @@
 /* hero.css */
 .hero-section{
-    background: url(../../images/banners/hero\ image.jpg);
-    no-repeat center;
+    background: url(../../images/banners/hero\ image.jpg) no-repeat center;
     background-size: cover;
     height: 500px;
     position: relative;
@@ -14,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 4rem;
+    padding: 0 6rem;
 }
 
 .hero-content{
@@ -23,20 +22,20 @@
     text-align: center;
 }
 
+.hero-buttons{
+    display: flex;
+    gap: 16px;
+}
+
 .hero-content .hero-title{
     font-size: 1.87rem;
     margin-bottom: 20px;
     font-weight: 400;
+    line-height: 36px;
     letter-spacing: 3px;
 }
 
 .hero-content .hero-subtitle{
     font-size: 1.25rem;
-    margin-bottom: 1.5rem;
     font-weight: 400;
-}
-
-.hero-buttons{
-    display: flex;
-    gap: 16px;
 }

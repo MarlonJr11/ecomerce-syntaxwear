@@ -14,8 +14,6 @@
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
-    background-size: cover;
-    background-position: center;
 }
 
 .overlay{
