@@ -26,10 +26,11 @@
 
 .nav-center a, .nav-right a{
     font-size: 1.25rem;
+    color: #333333;
 }
 
 .nav-center a:hover, .nav-right a:hover{
-    color: #7c3aed;
+    color: #6528D3;
 }
 
 .nav-right ul{

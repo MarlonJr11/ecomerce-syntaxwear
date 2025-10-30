@@ -12,7 +12,6 @@ main{
 
 .btn{
     color: #ffffff;
-    align-items: center;
     font-size: 1.25rem;
     width: 161px;
     height: 48px;
@@ -21,6 +20,8 @@ main{
     font-weight: 400;
     transition: background-color 0.3s, border 0.3s; 
     justify-content: center;
+    align-items: center;
+    display: inline-flex;
 }
 
 .btn-outline{
@@ -31,11 +32,11 @@ main{
 
 .btn-filled{
     background-color: #ffffff;
-    color: #6329A2;
+    color: #6528D3;
 }
 
 .btn:hover{
-    background-color: #6329A2;
+    background-color: #6528D3;
     color: #ffffff;
-    border: #6329A2;
+    border: #6528D3;
 }

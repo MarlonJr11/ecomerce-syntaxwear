@@ -41,16 +41,15 @@
 }
 
 .grid-section{
-    background-color: bisque;
     display: grid;
+    background-color: bisque;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 300px);
     grid-template-areas:
         "top1 top1 top2 top2"
         "top1 top1 midL midR"
         "bottomL midL bottomR bottomR";
-    gap: 20px;
-    margin-top: 40px;
+    gap: 30px;
 }
 
 .top1-content{
@@ -61,3 +60,21 @@
     text-align: center;
 }
 
+.card-title{
+    color: #EDEDED;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-subtitle{
+    color: #EDEDED;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cta-group{
+    display: flex;
+    gap: 10px;
+}
