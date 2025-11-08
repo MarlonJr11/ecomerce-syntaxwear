@@ -1,60 +1,56 @@
 /* product-grid.css */
 .card{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 20px;
 }
 
-.top1{
-    background-image: url(../../images/products/modelo-h.jpg);
-    grid-area: top1;
+.highlight {
+    grid-area: highlight;
+    background-image: url(../../images/products/card_imagem.jpg);
 }
 
-.top2{
+.sneaker-purple {
     background-image: url(../../images/products/roxo-verde-grid.jpg);
-    grid-area: top2;
+    grid-area: sneaker-purple;
 }
 
-.midL{
-    grid-area: midL;
-    background-image: url(../../images/products/modelo.jpg);
+.model {
+    grid-area: model;
+    background-image: url(../../images/products/modelo-feminino.jpg);
 }
 
-.midR{
-    background-image: url(../../images/products/colorido-grid.jpg);
-    grid-area: midR;
+.sneaker-color {
+    background-image: url(../../images/products/futurista-grid.jpg);
+    grid-area: sneaker-color;
 }
 
-.bottomL{
-    grid-area: bottomL;
-    background-image: url(../../images/products/branco-azul-grid.jpg);
+.sneaker-white {
+    grid-area: sneaker-white;
+    background-image: url(../../images/products/preto-branco-grid.jpg);
 }
 
-.bottomR{
-    background-image: url(../../images/products/cinza-grid.jpg);
-    grid-area: bottomR;
+.sneaker-silver {
+    background-image: url(../../images/products/moderno-grid.jpg);
+    grid-area: sneaker-silver;
 }
 
 .grid-section{
     display: grid;
-    background-color: bisque;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 300px);
     grid-template-areas:
-        "top1 top1 top2 top2"
-        "top1 top1 midL midR"
-        "bottomL midL bottomR bottomR";
+        "highlight highlight sneaker-purple sneaker-purple"
+		"highlight highlight model sneaker-color"
+		"sneaker-white sneaker-white model sneaker-silver";
     gap: 30px;
 }
 
 .top1-content{
     position: absolute;
-    top: 50%;;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;

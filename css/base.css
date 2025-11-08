@@ -1,7 +1,7 @@
 /* base.css */
 body {
     font-family: var(--fonte-principal);
-    color: #ffffff;
+    color: #333333;
 }
 
 main{
@@ -11,17 +11,14 @@ main{
 }
 
 .btn{
-    color: #ffffff;
     font-size: 1.25rem;
     width: 161px;
     height: 48px;
     border-radius: 25px;
-    text-decoration: none;
+    color: #ffffff;
     font-weight: 400;
-    transition: background-color 0.3s, border 0.3s; 
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
+    padding: 10px 20px;
+    transition: backgound-color 0.3s, border 0.3s;
 }
 
 .btn-outline{

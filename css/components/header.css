@@ -1,17 +1,17 @@
 /* header.css */
 .header{
-    background-color: #ffffff;
     position: fixed;
-    top: 60px;
-    left: 50%;
-    transform: translate(-50%);
-    width: calc(100% - 50px);
-    border-radius: 15px;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.200rem 1.25rem;
+	top: 60px;
+	left: 50%;
+	transform: translate(-50%);
+	width: calc(100% - 210px);
+	border-radius: 15px;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.265rem 1.25rem;
+	background-color: #ffffff;
 }
 
 .logo img{
@@ -24,25 +24,27 @@
     gap: 2.5rem
 }
 
-.nav-center a, .nav-right a{
+.nav-center a, 
+.nav-right a {
     font-size: 1.25rem;
     color: #333333;
 }
 
-.nav-center a:hover, .nav-right a:hover{
-    color: #6528D3;
+.nav-center a:hover,
+.nav-right a:hover {
+	color: #7c3aed;
 }
 
-.nav-right ul{
+.nav-right ul {
     display: flex;
     gap: 2.5rem;
     align-items: center;
 }
 
-.nav-right img{
+.nav-right img {
     height: 20px;
 }
 
-.nav-right a:hover img{
+.nav-right a:hover img {
     opacity: 0.7;
 }
