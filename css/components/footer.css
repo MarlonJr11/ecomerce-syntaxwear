@@ -1,1 +1,63 @@
 /* footer.css */
+/* ========== Footer E-commerce (base editável) ========== */
+/* Paleta/escala – ajuste à sua brand */
+.site-footer {
+  background-color: #333333; /* Cor de fundo do rodapé */
+  color: #ffffff; /* Cor do texto do rodapé */
+}
+
+.footer-content {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 155px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.footer-nav ul{
+  display: flex;
+  padding: 0;
+  gap: 20px;
+}
+
+.footer-nav ul ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav strong {
+  color: #EDEDED;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.footer-nav li a{
+  color: #ffffff
+}
+
+.footer-item {
+  margin: 20px;
+}
+
+.footer-item li a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-form input{
+  color: #aaaaaa;
+  padding: 12px 20px;
+  border-radius: 30px;
+  width: 344px;
+}
+
