@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   padding: 40px;
-  gap: 155px;
+  justify-content: space-between;
 }
 
 .footer-right {
@@ -23,7 +23,6 @@
 
 .footer-nav ul{
   display: flex;
-  padding: 0;
   gap: 20px;
 }
 
@@ -31,8 +30,6 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin: 0;
-  padding: 0;
 }
 
 .footer-nav strong {
@@ -54,6 +51,11 @@
   text-decoration: underline;
 }
 
+.newsletter-form{
+  display: flex;
+  flex-direction: column;
+}
+
 .newsletter-form input{
   color: #aaaaaa;
   padding: 12px 20px;
@@ -61,3 +63,21 @@
   width: 344px;
 }
 
+.footer-social span{
+  margin-bottom: 16px;
+  display: block;
+}
+.footer-social ul{
+  display: flex;
+  gap: 20px;
+}
+
+.footer-social li a:hover img{
+  opacity: 0.7;
+}
+
+.footer-copy{
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 1.25rem 0;
+}
