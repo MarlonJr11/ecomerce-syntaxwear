@@ -74,3 +74,31 @@
     display: flex;
     gap: 10px;
 }
+
+@media (max-width: 852px){
+    .grid-section{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "highlight highlight"
+            "sneaker-color sneaker-color"
+            "model sneaker-purple"
+            "model sneaker-white"
+            "sneaker-silver sneaker-silver";
+        gap: 0.625rem;
+        max-width: 100%;
+    }
+
+    .highlight {
+        min-height: 500px;
+    }
+    .model {
+        min-height: 370px;
+    }
+    .sneaker-white, .sneaker-purple {
+        min-height: 190px;
+    }
+    .sneaker-color, .sneaker-silver {
+        min-height: 300px;
+    }
+}

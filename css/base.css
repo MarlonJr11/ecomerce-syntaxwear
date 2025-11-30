@@ -10,9 +10,15 @@ main{
     margin: 0 auto;
 }
 
+@media (max-width: 1280px){
+    main{
+        padding: 0.625rem;
+    }
+}
+
 .btn{
-    font-size: 1.25rem;
-    width: 10.0625rem;
+    font-size: 1.1rem;
+    width: 11rem;
     height: 3rem;
     border-radius: 1.5625rem;
     color: #ffffff;
