@@ -4,7 +4,7 @@
 	top: 60px;
 	left: 50%;
 	transform: translate(-50%);
-	width: calc(100% - 210px);
+	width: 1260px;
 	border-radius: 15px;
 	z-index: 999;
 	display: flex;
@@ -16,7 +16,6 @@
 
 .logo img{
     height: 48px;
-
 }
 
 .nav-center ul{
@@ -52,9 +51,11 @@
 /* Mobile Menu Toggle */
 .nav-container{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 100%;
 	align-items: center;
+	flex: 1;
+	margin-left: 10rem;
 }
 
 .menu-toggle {
@@ -75,9 +76,10 @@
 	transition: opacity 0.3s ease;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1260px) {
 	.header {
-		width: calc(100% - 40px);
+		width: calc(100% - 150px);
+		padding: 2rem;
 	}
 
 	.menu-icon {

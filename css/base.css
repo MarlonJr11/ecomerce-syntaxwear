@@ -2,6 +2,7 @@
 body {
     font-family: var(--fonte-principal);
     color: #333333;
+    background-color: #1a051f;
 }
 
 main{
@@ -10,7 +11,7 @@ main{
     margin: 0 auto;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1260px){
     main{
         padding: 0.625rem;
     }
@@ -35,11 +36,11 @@ main{
 
 .btn-filled{
     background-color: #ffffff;
-    color: #6528D3;
+    color: #1a051f;
 }
 
 .btn:hover{
-    background-color: #6528D3;
+    background-color: #1a051f;
     color: #ffffff;
-    border: #6528D3;
+    border: #1a051f;
 }
